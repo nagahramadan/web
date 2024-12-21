@@ -1,118 +1,106 @@
-*{
-    margin: 0px;
-    padding: 0px ;
-    font-family:Arial, Helvetica, sans-serif;
-    }
-.FORM{
-    background-image: url("form.jpeg") ;
-    height: 100vh;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("form.jpeg");
     background-size: cover;
     background-position: center;
-    min-height:100px ;
-    }
-.form{
-   
-    width: 240px;
-    height: 380px;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
-    position: absolute;
-    top: -20px;
-    left: 500px;
-    transform: translate(0%,-5%);
-    border-radius: 10px;
-    padding: 150px;
-    margin-top: 60px;
-}
-.form h2{
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: #003366;
-    font-size: 22px;
-    background-color: #f5f5dc;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-}
-
- .form input{
-    width: 210px;
-    height: 30px;
-    background: transparent;
-    border-bottom: 1px solid#0d3d6a;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: #fff;
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
-}
-
-.form input:focus{
-    outline: none;
-}
-
-::placeholder{
-    color: #f5f5dc;
-    font-size: 15px;
-    opacity: 0.4;
-    padding: 0 0 0 10px;
-}
-
-.btnn{
-    width: 240px;
-    height: 40px;
-    background:#0d3d6a;
-    border: none;
-    margin-top: 30px;
-    font-size: 18px;
-    border-radius: 10px;
-    cursor: pointer;
-    color: #f5f5dc;
-    transition: 0.4s ease;
-}
-.btnn:hover{
-    background: transparent;
-    border: 1px solid #0d3d6a;
-    color: #0d3d6a;
-}
-.btnn a{
-    text-decoration: none;
-    color: #f5f5dc;
-    font-weight: bold;
-}
-.form .link{
-    font-size: 17px;
-    padding-top: 20px;
-    text-align: center;
-    color: #fff;
-}
-.form .link a{
-    text-decoration: none;
-    color:#0d3d6a ;
-}
-.liw{
-    margin-top: 60px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    text-align: center;
-    color:#0d3d6a;
-    font-weight: bold;
-}
-.icons a{
-    text-decoration: none;
-    color: #fff;
-}
-.icons ion-icon{
-    color:#f5f5dc;
-    font-size: 30px;
-    padding-left: 14px;
-    padding-top: 5px;
-    transition: 0.3s ease;
-}
-.icons ion-icon:hover{
-   color:#0d3d6a;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   
+  .FORM {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .FORM h2 {
+    margin-bottom: 20px;
+    color: #003366;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .FORM input[type="email"],
+  .FORM input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .FORM input[type="email"]:focus,
+  .FORM input[type="password"]:focus {
+    border: 1px solid #003366;
+    outline: none;
+  }
+  
+  .FORM .btnn {
+    margin-top: 20px;
+  }
+  
+  .FORM .btnn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #003366;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .FORM .link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .FORM .link a {
+    color: #003366;
+    text-decoration: none;
+  }
+  
+  .FORM .link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .FORM .liw {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .FORM .icons {
+    margin-top: 10px;
+  }
+  
+  .FORM .icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #003366;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .FORM .icons a:hover {
+    color: #f5f5dc;
+  }
+  
+  #error {
+    margin: 10px 0;
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
