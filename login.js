@@ -24,12 +24,12 @@ loginButton.addEventListener('click', function (event) {
 
   // التحقق من البريد الإلكتروني
   if (!isValidEmail(emailValue)) {
-    errors.push("البريد الإلكتروني غير صالح.");
+    errors.push("Email is invalid.");
   }
 
   // التحقق من كلمة المرور
   if (!isValidPassword(passwordValue)) {
-    errors.push("كلمة المرور يجب أن تكون 8 أحرف على الأقل.");
+    errors.push("Password must be at least 8 characters.");
   }
 
   // عرض الأخطاء
@@ -37,8 +37,9 @@ loginButton.addEventListener('click', function (event) {
     errorDiv.innerHTML = errors.join("<br>");
     errorDiv.style.color = "red";
   } else {
-    errorDiv.innerHTML = "تم التحقق بنجاح ✔️";
+    errorDiv.innerHTML = "Verified successfully✔️";
     errorDiv.style.color = "green";
+    errorDiv.style.fontWeight = "bold";
 
     // السماح بإعادة التوجيه للرابط
     window.location.href = loginButton.getAttribute('href');
