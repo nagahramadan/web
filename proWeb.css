@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+    text-transform: capitalize;
+}
+#face {
+    width: 100%;
+    background:url("FaceImage.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+#face .navbar {   
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button button  {
+    color: white;
+}
+.navbar .menu {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+    color: #003366;
+}
+.button {
+    margin-right: -60px;
+    width: 300px;
+    margin-left: 50px;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    background: #003366;
+    margin-top: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+.btn:hover {
+    background: transparent;
+    color: #003366;
+    outline: #003366 solid 2px;
+}
+#face .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 80px auto;
+    height: 600px;
+    padding: 30px;
+    text-align: center;
+}
+.content h1,
+.content p {
+    width: 540px;
+    margin: auto;
+}
+.content p {
+    margin-top: 30px;
+    opacity: 0.8;
+    
+}
+.content h1 {
+    margin-top: -150px;
+    font-weight: bold;
+    font-size: 55px;
+    width: 650px;
+    color: #003366;
+    font-family: 'Dancing Script', cursive;
+}
+.content .btn {
+    margin-left: 16px;
+    margin-top: 50px;
+}
+.button1 {
+    display: flex;
+    text-align: center;
+}
+/* ========================2========================= */
+/* ============ AVAILABLE جزء نورهان=============== */
+/* =================================================== */
+#two{
+    height: 100vh;
+  }
+  
+  #two .imges img {
+    margin:  50px;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    opacity: 0.8;
+  }
+  #two  h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+    padding:10px 100px  ;
+   background: #0d3d6a;
+   word-spacing: 200px;
+   letter-spacing: 7px;
+   font-family: 'Dancing Script', cursive;
+  }
+  /* =======================3=================== */
+  /* ================جزء نجاح ============== */
+  /* ============================================ */
+.second-sec {
+    width: 100%;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+.content {
+    position: relative;
+    width: 100%; 
+}
+.content img {
+    width: 75%;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.title {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.time {
+    position: absolute;
+    bottom: -1100px;
+    left: 40%;
+    font-size: 18px;
+    color: #003366;
+    letter-spacing: 4px;
+}
+.div0 {
+position: absolute;
+right: 0px;
+bottom: -70;
+margin-top: 40px;
+text-align: center;
+color: aliceblue;
+width: 150px;
+background: linear-gradient(to right, #378ef8, #003366);
+height: 40px;
+line-height: 40px;
+border-radius: 10px 0 0 10px;
+}/* =======================3=================== */
+  /* ================جزء نجاح ============== */
+  /* ============================================ */
+  .third-sec {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container2{
+position: relative;
+width: 100%;
+margin-top: 130px;
+display: flex;
+}
+.img-cont2{
+position: absolute;
+right: 0;
+width:55% ;
+border-radius: 20px 0 0 20px;
+}
+.div0-cont2{
+color: #003366;
+border: #003366 2px solid;
+height: 30px;
+margin-top: 2px;
+padding: 12px 30px;
+border-radius: 10px;
+margin-left: 12%;
+font-size: 30px;
+font-weight: bolder;
+font-family: 'Dancing Script', cursive;
+}
+.div1-cont2{
+position: absolute;
+left: 0;
+padding-top: 40px;
+width: 50%;
+height: 180px;
+background: linear-gradient(to right, #378ef8, #003366);
+color: white;
+font-size: 45px;
+margin-top: 20%;
+border-radius: 0 20px 20px 0 ;
+text-align: center;
+}
+
+/* ====================5======================= */
+/* =========جزء نجاح الفيدباك================ */
+/* ============================================= */
+#fourth-sec {
+    width: 100%;
+    min-height: 100vh;
+    margin-top:50px;
+}
+#fourth-sec .h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 60px;
+    color:#003366;
+}
+
+.section20 {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.child20 {
+    border-radius: 4px;
+    width: 1100px;
+    height: 400px;
+    margin: 10px auto;
+    background: #003366;
+    color: #f5f5dc;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "con con con con con img img img img img";
+}
+.content20 {
+    grid-area: con;
+    padding-left: 60px;
+    width: 550px;
+}
+.content20 .p20{
+    color: #ffffffbf;
+    width: 350px;
+    line-height: 1.7;
+}
+.h120 {
+    padding-top: 20px;
+    color: white;
+    width: 350px;
+}
+.image20 {
+    grid-area: img;
+}
+.image20 img {
+    width: 550px;
+    height: 400px;
+}
+.three img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+.h520 {
+    position: absolute;
+    left: 80px;
+    top: 5px;
+}
+.three {
+    color: white;
+    grid-area: three;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 280px;
+    position: relative;
+}
+/* ============================================== */
+  /* =============== جزء ندي=================== */
+  /* ============================================= */
+  .container4{
+    margin-top: 400PX;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.container4 >img{
+    height: 600px;
+    border-radius: 50px; 
+    margin-left: 150px;
+    padding: 20px;
+    outline:  solid 3px rgb(18, 38, 87);
+    
+}
+.container4 > b{
+    color:rgb(18, 38, 87); 
+    line-height: 60px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    display: inline;
+    margin-left: 50px;   
+}
+/* ========================4====================== */
+  /* ===============جزء يارا================== */
+  /* ============================================= */
+
+  .fifth-sec {
+    width: 95%;
+    height: 100vh; 
+    position: relative;
+    margin: auto;
+  }
+.left-section {
+    height: 90%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 40%;
+    /* padding: 40px; */
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.left-section h1 {
+    margin-top: 10px;
+    font-size: 70px;
+  }
+.left-section .subtitle {
+    font-size: 40px;
+    margin: -10px 0;
+    font-family: 'Dancing Script', cursive;
+  }
+.left-section .description {
+    font-size: 18px;
+    margin: 50px 0 ;
+    line-height: 1.4;
+  }
+.right-section {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 33.5%;
+  }
+.top-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ccc;
+  }
+.bottom-image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+/* ========================4====================== */
+  /* ===============about us جزء ندي=================== */
+  /* ============================================= */
+  #section1 > h1{
+    text-align: center;
+    font-size: 60px;
+    color:#003366;
+}
+#section1 > p{
+    font-size: 20px;
+    text-align: center;
+}
+.imageDive > img{
+    width: 800px;
+    height: 500;
+    display: block;
+    margin: 30px auto;
+    border-radius: 30px;
+}
+.hr1{
+        width: 850px;
+        height: 3px;
+        border: none;
+        margin-left: 120px;
+        background-color:#003366;    
+}
+.hr2{
+        width: 850px;
+        height: 3px;
+        border: none;
+        margin-left: 510px;
+        background-color:#003366;
+}
+.section2{
+    background-color: #003366;
+    padding: 14px;
+    margin: 30px;
+    
+}
+.section2  h3{
+    font-size: 40px;
+    margin-left: 100px;
+    color:white;
+}
+.section2 .para p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 100px;
+    color:white;
+}
+.section3 > p{
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+  
+/* ====================================== */
+/* ===============calll جزء ياسمين========== */
+/* ========================================== */
+#ad-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ad-container h1{
+    margin-top: -90px;
+    text-align: center;
+    font-size: 60px;
+    color:#003366;
+}
+#ad-container .child{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+#ad-container img {
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+}
+
+#ad-container .onSale h1 {
+    transform: rotate(270deg);
+    color: #003366;
+    font-size: 100px;
+    margin-top: -130px;
+    margin-right: -540px;
+}
+.child .details {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #003366;
+    margin-left: -230px;
+    font-family: 'Dancing Script', cursive;
+}
+.logosite {
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+margin-top: 10px;
+}
+#ad-container .call h1{
+    margin-top: -30px;
+    color: #003366;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+#ad-container .call .h2222{
+    color: white;
+    font-size: 20px;
+    background-color: #003366;
+    border-radius: 20px 0 0 0;
+}
+/* ==================================== */
+/* =========جزء يارا============== */
+/* =========================================== */
+.last-sec {
+    margin-top: 300px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("picture-frame-wall-with-scandinavian-home-interior.jpg") no-repeat center center;
+    background-size: cover;
+    border: 1px solid #f5f5dc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.headline {
+    font-size: 70px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+  }
+.subheadline {
+    font-size: 70px;
+    color: #003366;
+    font-family: 'Dancing Script', cursive;
+  }
+.footer-text {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: #003366;
+    padding: 10px 0;
+  }
+
+  

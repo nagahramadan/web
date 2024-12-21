@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+.FORM{
+    background-image: url("form.jpeg") ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height:100px ;
+    }
+.form{
+   
+    width: 240px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: -20px;
+    left: 500px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 150px;
+    margin-top: 60px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #003366;
+    font-size: 22px;
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+ .form input{
+    width: 210px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid#0d3d6a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #f5f5dc;
+    font-size: 15px;
+    opacity: 0.4;
+    padding: 0 0 0 10px;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:#0d3d6a;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #f5f5dc;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: transparent;
+    border: 1px solid #0d3d6a;
+    color: #0d3d6a;
+}
+.btnn a{
+    text-decoration: none;
+    color: #f5f5dc;
+    font-weight: bold;
+}
+.form .link{
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.form .link a{
+    text-decoration: none;
+    color:#0d3d6a ;
+}
+.liw{
+    margin-top: 60px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:#0d3d6a;
+    font-weight: bold;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color:#f5f5dc;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+   color:#0d3d6a;
+}
+  
