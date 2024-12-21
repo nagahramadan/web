@@ -55,10 +55,13 @@ ul li a {
 ul li a:hover {
     color: #003366;
 }
-.button {
-    margin-right: -60px;
+.button a{
     width: 300px;
-    margin-left: 50px;
+    margin: 20px 0 0 50px;
+    color: white;
+    background-color: #003366;
+    padding: 10px;
+    border-radius: 40px;
 }
 .btn {
     width: 150px;
@@ -115,6 +118,7 @@ ul li a:hover {
     display: flex;
     text-align: center;
 }
+
 /* ========================2========================= */
 /* ============ AVAILABLE جزء نورهان=============== */
 /* =================================================== */
@@ -449,7 +453,6 @@ text-align: center;
     font-size: 20px;
     text-align: center;
 }
-  
 /* ====================================== */
 /* ===============calll جزء ياسمين========== */
 /* ========================================== */
@@ -459,6 +462,7 @@ text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 #ad-container h1{
     margin-top: -90px;
@@ -510,12 +514,19 @@ margin-top: 10px;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
 }
-#ad-container .call .h2222{
+#ad-container .call h1 a{
+    margin-top: -30px;
     color: white;
-    font-size: 20px;
     background-color: #003366;
     border-radius: 20px 0 0 0;
+    font-size: 20px;
+    padding: 20px 150px;
+    position: absolute;
+    right: 0;
+    letter-spacing: 10px;
+    bottom: 45px;
 }
+
 /* ==================================== */
 /* =========جزء يارا============== */
 /* =========================================== */
